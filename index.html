@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos Parte 3</title>
 
-    <script src="script.js"></script>
-
+    
     <style></style>
-</head>
-<body>
-    
-    
 
+    <script src="script.js"></script>  
+
+</head>
+<body onload="loaded()"> <!-- Evento para permitir que o evento do script só seja executado depois que o body for carregado-->
+    
+    <h1 id="titulo">teste</h1>
+    
 </body>
+
+<!-- a ordem influencia para pegar o titulo, no caso se eu estivesse tentado pegar o titulo com o <script></script> lá em cima, ele não ia conseguir, pois eu ainda não tenho esse título -->
+
 </html>
